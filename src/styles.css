@@ -15,4 +15,7 @@ select{padding:8px;border:1px solid #bae6fd;border-radius:8px;margin:4px;backgro
 textarea{padding:8px;border:1px solid #bae6fd;border-radius:8px;margin:4px;font:inherit;min-width:220px}
 body{padding:env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left)}
 @media(max-width:700px){aside{flex-direction:row;flex-wrap:wrap;gap:2px}aside h2,aside small{width:100%}main{padding:12px}}
-.logo{width:56px;height:56px;border-radius:12px;background:#fff}.auth .logo{align-self:center;width:96px;height:96px}
+.logo{width:56px;height:56px;border-radius:12px;background:#fff;padding:5px;object-fit:contain}.auth .logo{align-self:center;width:96px;height:96px}
+
+.stat.click{cursor:pointer;transition:transform .1s}.stat.click:hover{transform:translateY(-2px);box-shadow:0 3px 10px #0ea5e955}.stat small{display:block;color:#b45309}
+.link{cursor:pointer;color:var(--sky-d);text-decoration:underline}.chips{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:10px}.chips button{border-radius:999px}
